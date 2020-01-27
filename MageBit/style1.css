@@ -1,0 +1,164 @@
+.container1{
+    background-color: #0f1a2f; 
+    opacity: .9;
+    color: aliceblue;
+    font-family: Calibri Light;
+    position: absolute;
+	left: 300px;
+	top: 205px;
+    width:780px;
+    height: 330px;
+}
+body{
+   background-image: url(img/Birds.jpg);
+    background-repeat: no-repeat;
+    background-size:1300px 700px;
+}
+.sign-up1{
+    width:50%;
+    height:500px;
+    text-align:left;
+    padding:30px 40px;
+    line-height: 30px;
+}
+.login1{
+    width:50%;
+    height:450px;
+    text-align: right;
+    line-height: 30px;
+    padding:50px;
+}
+.container1 h1{
+    white-space: nowrap;
+}
+.a1{
+    font-size: 13px;
+    padding: 12px 28px;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: #0f1a2f;
+    color:#49abfe ;
+    letter-spacing: 2px;
+    font-family: Calibri;
+    text-align: center;
+    font-weight: 700;
+    line-height: 35px
+}
+
+.a1:hover{
+    background-color:#49abfe;
+    color: white;
+    border-style: none;
+}
+.container2{
+    height:360px;
+    color: dimgrey;
+    font-family: Calibri Light; 
+    position: absolute;
+	left: 320px;
+	top: 190px;
+    width:400px;
+	background-color: white;
+}
+.sign-up2{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+	padding-left:20%;
+}
+.login2{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+	display:none;
+	padding-left:20%;
+}
+form {
+	margin-bottom:30px;
+    width: 60%;
+	height:auto;
+}
+input,
+label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+input[type="text"],
+input[type="password"] {
+	font-family: Calibri Light;
+    font-size: 1.5em;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+	outline: none;
+	letter-spacing: 0px;
+	font-weight: 400;
+    line-height: 45px;
+}
+label {
+    display: inline-block;
+    margin: 0 5px;
+    transition: all 0.5s ease-in-out; 
+    top: 36px;
+}
+.filled label {
+    top: 0;
+    font-size: 0.8em;
+}
+input:focus{
+	border-color:blue;
+}
+.logo{
+	width:50px;
+}
+#inp1{
+	background:url(img/user.jpg) right no-repeat;
+	background-size:17px;
+}
+#inp2{
+	background: url(img/mail.png) right no-repeat;
+	background-size:20px;
+}
+#inp3{
+	background:url(img/lock.png)right no-repeat;
+	background-size:15px;
+}
+#inp4{
+	background:url(img/mail.png) right no-repeat;
+	background-size:20px;
+}
+#inp5{
+	background:url(img/lock.png) right no-repeat;
+	background-size:15px;
+}
+.a2{
+    font-size: 13px;
+    border-radius: 25px;
+    background-color: #f89a35;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Calibri;
+    font-weight: 700;
+    line-height: 35px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+.a2:hover{
+    background-color:#f8bf35;
+    color: white;
+}
+.not-enter{
+	display:inline-block;
+	width:55%;
+}
+.forgot{
+    font-family:Calibri;
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+}
+.forgot{
+    text-align: right;
+}
